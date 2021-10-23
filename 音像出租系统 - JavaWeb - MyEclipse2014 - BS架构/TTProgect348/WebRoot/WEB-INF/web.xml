@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>TTProgect348</display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PublicsQueryAllServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.PublicsQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_PublicsAddServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_PublicsAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_PublicsDeleteServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_PublicsDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_PublicsQueryAllServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_PublicsQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_PublicsUpServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_PublicsUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_MessagessAddServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_MessagessAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_MessagessDeleteServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_MessagessDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_MessagessUpServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_MessagessUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_MessagessQueryAllServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_MessagessQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_TapsQueryServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_TapsQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_TapsAddServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_TapsAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_TapsUpServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_TapsUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_TapsDeleteServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_TapsDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_TapsTypeQueryServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_TapsTypeQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ewer</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.ewer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_TapsTypeAddServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_TapsTypeAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_TapsTypeDeleteServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_TapsTypeDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_TapsTypeUpServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_TapsTypeUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ewer1</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.ewer1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_UsersQueryServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_UsersQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_UsersAddServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_UsersAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_UsersUpServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_UsersUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_UsersDeleteServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_UsersDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_PublicsQueryAllServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_PublicsQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_MessagessQueryAllServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_MessagessQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_UsersFindServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_UsersFindServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_FindUsersServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_FindUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_TapsQueryAllServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_TapsQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_LetTapsServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_LetTapsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_FindTapsByIdServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_FindTapsByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_LetTapsQueryAllServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_LetTapsQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginAddServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.LoginAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_MessagessAddServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_MessagessAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_TapsdoDeleteServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_TapsdoDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_LetTapsDeleteServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_LetTapsDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_LetTapsQueryAllServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_LetTapsQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_LetTapsUpServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_LetTapsUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_LetTapsDeleteServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_LetTapsDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Users_TapsdoUpServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Users_TapsdoUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admins_LetTapsAddServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Admins_LetTapsAddServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PublicsQueryAllServlet</servlet-name>
+    <url-pattern>/PublicsQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_PublicsAddServlet</servlet-name>
+    <url-pattern>/Admins_PublicsAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_PublicsDeleteServlet</servlet-name>
+    <url-pattern>/Admins_PublicsDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_PublicsQueryAllServlet</servlet-name>
+    <url-pattern>/Admins_PublicsQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_PublicsUpServlet</servlet-name>
+    <url-pattern>/Admins_PublicsUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_MessagessAddServlet</servlet-name>
+    <url-pattern>/Admins_MessagessAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_MessagessDeleteServlet</servlet-name>
+    <url-pattern>/Admins_MessagessDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_MessagessUpServlet</servlet-name>
+    <url-pattern>/Admins_MessagessUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_MessagessQueryAllServlet</servlet-name>
+    <url-pattern>/Admins_MessagessQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_TapsQueryServlet</servlet-name>
+    <url-pattern>/Admins_TapsQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_TapsAddServlet</servlet-name>
+    <url-pattern>/Admins_TapsAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_TapsUpServlet</servlet-name>
+    <url-pattern>/Admins_TapsUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_TapsDeleteServlet</servlet-name>
+    <url-pattern>/Admins_TapsDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_TapsTypeQueryServlet</servlet-name>
+    <url-pattern>/Admins_TapsTypeQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ewer</servlet-name>
+    <url-pattern>/ewer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_TapsTypeAddServlet</servlet-name>
+    <url-pattern>/Admins_TapsTypeAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_TapsTypeDeleteServlet</servlet-name>
+    <url-pattern>/Admins_TapsTypeDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_TapsTypeUpServlet</servlet-name>
+    <url-pattern>/Admins_TapsTypeUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ewer1</servlet-name>
+    <url-pattern>/ewer1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_UsersQueryServlet</servlet-name>
+    <url-pattern>/Admins_UsersQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_UsersAddServlet</servlet-name>
+    <url-pattern>/Admins_UsersAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_UsersUpServlet</servlet-name>
+    <url-pattern>/Admins_UsersUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_UsersDeleteServlet</servlet-name>
+    <url-pattern>/Admins_UsersDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users_PublicsQueryAllServlet</servlet-name>
+    <url-pattern>/Users_PublicsQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users_MessagessQueryAllServlet</servlet-name>
+    <url-pattern>/Users_MessagessQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users_TapsQueryAllServlet</servlet-name>
+    <url-pattern>/Users_TapsQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users_LetTapsServlet</servlet-name>
+    <url-pattern>/Users_LetTapsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users_FindTapsByIdServlet</servlet-name>
+    <url-pattern>/Users_FindTapsByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users_LetTapsQueryAllServlet</servlet-name>
+    <url-pattern>/Users_LetTapsQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAddServlet</servlet-name>
+    <url-pattern>/LoginAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users_MessagessAddServlet</servlet-name>
+    <url-pattern>/Users_MessagessAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users_TapsdoDeleteServlet</servlet-name>
+    <url-pattern>/Users_TapsdoDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users_LetTapsDeleteServlet</servlet-name>
+    <url-pattern>/Users_LetTapsDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_LetTapsQueryAllServlet</servlet-name>
+    <url-pattern>/Admins_LetTapsQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_LetTapsUpServlet</servlet-name>
+    <url-pattern>/Admins_LetTapsUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_LetTapsDeleteServlet</servlet-name>
+    <url-pattern>/Admins_LetTapsDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Users_TapsdoUpServlet</servlet-name>
+    <url-pattern>/Users_TapsdoUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admins_LetTapsAddServlet</servlet-name>
+    <url-pattern>/Admins_LetTapsAddServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
