@@ -1,4 +1,4 @@
-![](https://s2.loli.net/2022/09/29/14sLDBjhu53UWS2.jpg)
+<img src="https://s2.loli.net/2022/09/29/14sLDBjhu53UWS2.jpg" style="zoom:25%;" />
 
 ### **BS系统开发音像出租系统**
 
