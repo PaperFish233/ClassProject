@@ -291,7 +291,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“select \* from Publics”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/8430a45e7ede0d3a7975018bdde81a9a.png)
+![](https://s2.loli.net/2022/09/29/SUxN95DdXs3Fyte.png)
 
 图2.4 公告主界面
 
@@ -301,7 +301,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“update Publics set Pcontent=?,Pname=?,Ptime=? where Pno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/9a8e824ca2deabf77b3f6225e3d8eae9.png)
+![](https://s2.loli.net/2022/09/29/L2k6tPUKRX7dSip.png)
 
 图2.5 修改公告界面
 
@@ -311,7 +311,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“delete from Publics where Pno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/add50dbead05204e18b3509775c82b4a.png)
+![](https://s2.loli.net/2022/09/29/NZlyWzjh3JLaIK4.png)
 
 图2.6 删除公告提示
 
@@ -321,7 +321,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“Insert into Publics values(?,?,?,?)”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/d791d5c6687fc67a29447957011cae49.png)
+![](https://s2.loli.net/2022/09/29/vDf7atJyUdMIHx6.png)
 
 图2.7 添加公告界面
 
@@ -331,7 +331,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“select \* from Publics”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/980234f51e7e5e53e590d4eeb41df0c4.png)
+![](https://s2.loli.net/2022/09/29/PJTH3rpI9fDwVvq.png)
 
 图2.8 公告主界面
 
@@ -345,7 +345,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“select \* from Messagess”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/d6d75e5ebee964cdc13c6de3f4149f82.png)
+![](https://s2.loli.net/2022/09/29/MpOY1JdkxGPisAc.png)
 
 图2.9 匿名留言板主界面
 
@@ -355,7 +355,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“update Messagess set Mcontent=?,Mtime=? where Mno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/a7d0091814e8313315743f1bca5c9b8a.png)
+![](https://s2.loli.net/2022/09/29/VlM6fAt31XkULgF.png)
 
 图2.10 修改留言板信息界面
 
@@ -365,7 +365,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“delete from Messagess where Mno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/add50dbead05204e18b3509775c82b4a.png)
+![](https://s2.loli.net/2022/09/29/NZlyWzjh3JLaIK4.png)
 
 图2.11 删除留言板信息提示
 
@@ -375,7 +375,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“Insert into Messagess values(?,?,?)”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/14113aa714dceb83def253af8f327c3d.png)
+![](https://s2.loli.net/2022/09/29/xlXj3tgAFcDwYdH.png)
 
 图2.12 添加留言板信息界面
 
@@ -387,7 +387,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“select \* from Messagess”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/0539a3cef14a6f84ccd595309ce8648f.png)
+![](https://s2.loli.net/2022/09/29/uIEfKjXQYZUtPh9.png)
 
 图2.13 匿名留言板主界面
 
@@ -411,7 +411,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“select Tno,Tname,TTTypename,Tstate from Taps LEFT join TapsType on Taps.TTypeno=TapsType.TTno”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/7d0aec98b44067939c2cf81edf91fce5.png)
+![](https://s2.loli.net/2022/09/29/lKZAgFPm9jCvrTe.png)
 
 图2.15 音像信息管理主界面
 
@@ -421,7 +421,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“update Taps set Tname=?,TTypeno=?,Tstate=? where Tno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/95465468147c81dc4cd98c0d6bb14db7.png)
+![](https://s2.loli.net/2022/09/29/QKf7LxvH3S1gchM.png)
 
 图2.16 修改音像信息界面
 
@@ -431,7 +431,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“delete from Taps where Tno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/add50dbead05204e18b3509775c82b4a.png)
+![](https://s2.loli.net/2022/09/29/NZlyWzjh3JLaIK4.png)
 
 图2.17 删除音像信息提示
 
@@ -441,7 +441,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“insert into Taps values(?,?,?,?)”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/14113aa714dceb83def253af8f327c3d.png)
+![](https://s2.loli.net/2022/09/29/NKB7uYEI4Jold2P.png)
 
 图2.18 添加音像信息界面
 
@@ -453,7 +453,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“select \* from TapsType”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/275a5047d6de8c4f249963be63bdb25d.png)
+![](https://s2.loli.net/2022/09/29/NKB7uYEI4Jold2P.png)
 
 图2.19 音像信息类别管理主界面
 
@@ -463,7 +463,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“update TapsType set TTTypename=? where TTno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/359fdaf1cc9d48ab7e761fd4ce74aab0.png)
+![](https://s2.loli.net/2022/09/29/SFVLQas321qf7pE.png)
 
 图2.20 修改音像类别信息界面
 
@@ -473,7 +473,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“delete from TapsType where TTno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/add50dbead05204e18b3509775c82b4a.png)
+![](https://s2.loli.net/2022/09/29/NZlyWzjh3JLaIK4.png)
 
 图2.21 删除音像类别信息提示
 
@@ -483,7 +483,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“Insert into TapsType values(?,?)”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/5ccb657eb333fc7d45293e67fb0d7c4f.png)
+![](https://s2.loli.net/2022/09/29/GwYNlSyec1Dg832.png)
 
 图2.22 添加音像类别信息界面
 
@@ -497,7 +497,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“select \* from Users”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/c3e0ea07a2c2393d5f946fc6d86c9175.png)
+![](https://s2.loli.net/2022/09/29/HbzqKXfs57LAVRg.png)
 
 图2.23 用户管理主界面
 
@@ -507,7 +507,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“update Users set Uaccount=?,Uname=?,Upassword=?,Uauthority=? where Uno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/b4226412fe52cd09e90c35dbafbe3fe1.png)
+![](https://s2.loli.net/2022/09/29/VgRfvL9dTXqbJFC.png)
 
 图2.24 修改用户信息界面
 
@@ -517,7 +517,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“delete from Users where Uno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/add50dbead05204e18b3509775c82b4a.png)
+![](https://s2.loli.net/2022/09/29/NZlyWzjh3JLaIK4.png)
 
 图2.25 删除音像类别信息提示
 
@@ -527,7 +527,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“Insert into Users values(?,?,?,?,?)”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/95a8280ba6a5bfb751d1294e6c588ea2.png)
+![](https://s2.loli.net/2022/09/29/eYfsOAIzGxPy9KT.png)
 
 图2.26 添加用户信息界面
 
@@ -541,7 +541,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“select \* from LetTaps”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/4d8503e3b30c709b062ef00329974b7a.png)
+![](https://s2.loli.net/2022/09/29/lB6JPMnFfRpa5v7.png)
 
 图2.27 音像租赁主界面
 
@@ -551,7 +551,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“update Taps set Tstate='不在库' where Tno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/9d688899023da5f94c39694e86d388ee.png)
+![](https://s2.loli.net/2022/09/29/q7NLMBGr2z9npJZ.png)
 
 图2.28 修改租赁信息界面
 
@@ -561,7 +561,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“delete from LetTaps where Lno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/add50dbead05204e18b3509775c82b4a.png)
+![](https://s2.loli.net/2022/09/29/NZlyWzjh3JLaIK4.png)
 
 图2.29 删除公告提示
 
@@ -571,7 +571,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“insert into LetTaps values(?,?,?,?,?)”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/1a31ed68f77f0c45692853e0f4e75398.png)
+![](https://s2.loli.net/2022/09/29/iK8mvr4hHUpR91g.png)
 
 图2.30 添加租赁信息界面
 
@@ -583,7 +583,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“select Tno,Tname,TTTypename,Tstate from Taps LEFT join TapsType on Taps.TTypeno=TapsType.TTno”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/8183ae274e40a43b9d2c42e86d1a4284.png)
+![](https://s2.loli.net/2022/09/29/6BoZ43uxFdMvpEi.png)
 
 图2.31 查询可租赁音像主界面
 
@@ -593,7 +593,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“insert into LetTaps values(?,?,?,?,?)”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/1465f72e5d7c8358597cba196eb48f7a.png)
+![](https://s2.loli.net/2022/09/29/MJQs4YyE1VXe2vo.png)
 
 图2.28 租赁音像信息界面
 
@@ -603,7 +603,7 @@ servlet包是控制器类，根据用户要求而改变页面，用于拦截请�
 
 实现原理：定义一个实体类的变量，并通过get与set方法返回一个变量，通过Servlet取得表单中提交的信息而后利用工厂类指向接口类引用实现类的方法中写的SQL语句：“delete from LetTaps where Lno=?”来打包信息，再在JSP中利用循环语句解包获取的数据并显示，从而完成整个过程。
 
-![](media/add50dbead05204e18b3509775c82b4a.png)
+![](https://s2.loli.net/2022/09/29/NZlyWzjh3JLaIK4.png)
 
 图2.33 归还音像提示
 
